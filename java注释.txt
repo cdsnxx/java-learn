@@ -1,0 +1,14 @@
+// 单行注释
+/* */ 多行注释，多行注释不能嵌套
+/** */ 文档注释，注释包含一些说明性文字及一些javaDoc标签
+
+/**
+*这是我的第一个java类
+*@version v1.0
+*/
+public class Welcome{
+	public static void main(String[] args/*参数名称，可变*/){
+		//下面是打印语句，输出双引号中的内容。
+		System.out.print("What's your name?");
+	}
+}
